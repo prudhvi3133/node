@@ -2,7 +2,7 @@ const express = require("express");
 const User = require("../model/user");
 const jwtRouter = express.Router();
 const bcrypt = require("bcrypt");
-
+//check commit
 let users = [];
 
 jwtRouter.post("/register", async (req, res) => {
